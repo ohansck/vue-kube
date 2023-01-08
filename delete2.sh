@@ -1,0 +1,1 @@
+kubectl delete pod vue-kube-79c46f7d9c-pkv74

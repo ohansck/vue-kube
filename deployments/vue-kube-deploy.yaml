@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: vue-kube
-          image: docker.io/ohansck/vue-kube:v1
+          image: docker.io/ohansck/vue-kube:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
