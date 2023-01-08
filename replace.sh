@@ -1,0 +1,3 @@
+echo Exposing deployment and service...
+
+kubectl expose service vue-kube --type=LoadBalancer --name=vue-kube-site1
