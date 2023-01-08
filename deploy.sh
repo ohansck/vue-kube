@@ -1,0 +1,3 @@
+echo Initiating deployment and service creation...
+
+kubectl apply -f ./deployments/vue-kube-deploy.yaml
