@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  [type="text"],
+  [type="number"] {
+    @apply bg-transparent font-normal rounded-md w-full h-10 px-2.5 py-2 shadow-sm border border-gray-300 focus:outline-none focus:border-green-500 focus:ring-1 focus:ring-green-500 transition duration-300 ease-in !important;
+  }
+}
+
+body, #app {
+    @apply h-screen;
+}
